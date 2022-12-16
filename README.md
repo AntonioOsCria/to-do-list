@@ -4,7 +4,7 @@ To do List
 
 ## Description:
 
-Criação de uma lista de tarefa, para o estrudo de JavaScript
+Criação de uma lista de tarefa, para o estudo de JavaScript
 
 ## Project Access:
 
