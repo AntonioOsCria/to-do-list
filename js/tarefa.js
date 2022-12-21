@@ -1,3 +1,4 @@
+
 let content = document.getElementById('Title');
 let title = document.createElement('h1'); 
 let text = document.createTextNode("To-Do-List");
@@ -23,9 +24,3 @@ elementBtn.addEventListener('click', function(){
 
     list.addEventListener
 }) 
-
-
-
-
-
-
