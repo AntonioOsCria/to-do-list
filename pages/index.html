@@ -5,31 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <title>To Do List</title>
+
+    <title>To-Do-List</title>
 </head>
 <body>
-    <header class="Title">
-        <h1>To do List</h1>
+    <header id="Title"></header>
+     
     </header>
-    <main class="Content">
-        <section class="Box">
-            <div class="Form">
+    <main>
+        <section>
+            <div class="BoxOne">
                 <h2 class="SecondTitle">Assign Task</h2>   
-                <form>
-                    <input type="text" name="task" id='Task' />
-                </form> 
+                 <input type="text" id="input" placeholder="New Task..."/>
+                 <button id="addBtn">Add Task</button>
             </div>
         </section>
 
-        <section class="Box">
-            <div class="List">                 
-                <div class="ListChore">
-                    <ul id="MyList">
-                       
-                    </ul>
-                    <button onclick="addTask()">Add Task</button>
-                </div>
-            </div>
+        <section>
+            <div class="BoxTwo">                 
+                <ul id="ul"></ul>
+              </div>
         </section>
     </main>
 
